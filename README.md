@@ -1,0 +1,2 @@
+# Bypass_Disable_functions_Shell
+一个各种方式突破Disable_functions达到命令执行的shell
