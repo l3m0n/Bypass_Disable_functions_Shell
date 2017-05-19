@@ -63,6 +63,9 @@ https://www.exploit-db.com/exploits/4218/
 
 http://0cx.cc/bypass_disabled_via_mod_cgi.jspx
 
+##### mail的exim扩展bypass
+http://www.cnblogs.com/iamstudy/articles/Exim_mail_bypass_disable_function.html
+
 ### 防御
 dl
 exec
