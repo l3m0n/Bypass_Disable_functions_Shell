@@ -1,6 +1,9 @@
 # Bypass_Disable_functions_Shell
 一个各种方式突破Disable_functions达到命令执行的shell
 
+### 防御
+dl,exec,system,passthru,popen,proc_open,pcntl_exec,shell_exec,mail
+
 ### 功能
 ##### 利用环境变量LD_PRELOAD来绕过
 
@@ -67,7 +70,5 @@ http://0cx.cc/bypass_disabled_via_mod_cgi.jspx
 ##### mail的exim扩展bypass
 http://www.cnblogs.com/iamstudy/articles/Exim_mail_bypass_disable_function.html
 
-### 防御
-dl,exec,system,passthru,popen,proc_open,pcntl_exec,shell_exec,mail
 
 
