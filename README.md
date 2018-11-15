@@ -5,6 +5,9 @@
 dl,exec,system,passthru,popen,proc_open,pcntl_exec,shell_exec,mail,imap_open
 
 ### 功能
+##### imap_open bypass
+https://antichat.com/threads/463395/#post-4254681
+
 ##### 利用环境变量LD_PRELOAD来绕过
 
 http://drops.wooyun.org/tips/16054
