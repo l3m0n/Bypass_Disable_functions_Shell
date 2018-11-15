@@ -2,7 +2,7 @@
 一个各种方式突破Disable_functions达到命令执行的shell
 
 ### 防御
-dl,exec,system,passthru,popen,proc_open,pcntl_exec,shell_exec,mail
+dl,exec,system,passthru,popen,proc_open,pcntl_exec,shell_exec,mail,imap_open
 
 ### 功能
 ##### 利用环境变量LD_PRELOAD来绕过
