@@ -2,7 +2,7 @@
 一个各种方式突破Disable_functions达到命令执行的shell
 
 ### 防御
-dl,exec,system,passthru,popen,proc_open,pcntl_exec,shell_exec,mail,imap_open
+dl,exec,system,passthru,popen,proc_open,pcntl_exec,shell_exec,mail,imap_open,imap_mail,putenv
 
 ### 功能
 ##### imap_open bypass
