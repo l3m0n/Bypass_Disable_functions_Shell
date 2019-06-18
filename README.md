@@ -1,5 +1,7 @@
 # Bypass Disable Functions Shell
 
+项目旧文档已迁移到[此处](https://github.com/l3m0n/Bypass_Disable_functions_Shell/blob/master/paper/readme.old.md)
+
 禁用函数列表(希望能做最全的禁用列表,也可以用此做对比进行绕过):
 
 ```
